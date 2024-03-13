@@ -22,7 +22,6 @@ void TestMultipleChoice()
 }
 
 
-
 void TestTrueFalseAnswer()
 {
     TrueFalseQuestion a("The sky is blue.", "True");
@@ -60,57 +59,7 @@ int main()
 {
     TestShortAnswer();
     TestMultipleChoice();
-    TestMultipleChoice();
-    TestTrueFalseAnswer();
     TestTrueFalseAnswer();
 
     return 0;
 }
-
-// EXPECTED OUTPUT
-/*
-What is 9 * 9 ?
-ANSWER : 99
-ANSWER : -192
-ANSWER : jokdv
-ANSWER : 81
-CORRECT!
-
-What is the chemical formula for sodium ?
-1) Ne
-2) Na
-3) So
-4) Da
-ANSWER : 1
-ANSWER : 3
-ANSWER : 4
-ANSWER : Ne
-ANSWER : So
-ANSWER : Da
-ANSWER : Na
-CORRECT!
-
-What is the chemical formula for sodium ?
-1) Ne
-2) Na
-3) So
-4) Da
-ANSWER : 2
-CORRECT!
-
-The sky is blue.
-1) True
-2) False
-ANSWER : 2
-ANSWER : False
-ANSWER : 1
-CORRECT!
-
-The sky is blue.
-1) True
-2) False
-ANSWER : True
-CORRECT!
-
-Press any key to continue . . .
-*/
